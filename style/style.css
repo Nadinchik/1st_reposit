@@ -64,14 +64,14 @@ body{
     }
 }
 
-.list{
+.row{
     float: right;
     margin-top: 35px;}
 @media (max-width: 992px) {
-    .list{
+    .row{
         margin-top: 20px;} }
 
-.list li{
+.block{
     float: left;
     width: 104px;
     height: 21px;
@@ -80,15 +80,15 @@ body{
     border: 2px solid #8ecdf6;
     border-radius: 10px;}
 @media (max-width: 992px){
-    .list li{
+    .block{
         max-width: 50px;
         height: 15px;
         margin-right: 8px;}  }
 
-.list li:last-child{
+.block:last-child{
     margin-right: 0;}
 
-.list li:hover{
+.block:hover{
     border: 2px solid #eee5f6;}
 
 .main{

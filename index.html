@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Start</title>
 
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="style/style.css" rel="stylesheet" type="text/css">
 
     <style>
         @import url('https://fonts.googleapis.com/css?family=Roboto');
@@ -15,18 +15,19 @@
 <body>
 <div class="wrapper">
     <div class="header">
-        <div class="logo"></div>
         <div class="container">
+        <div class="logo"></div>
             <div class="row">
-                <div class="block"></div>
-                <div class="block"></div>
-                <div class="block"></div>
+                <div class="block"><a href="#"></a></div>
+                <div class="block"><a href="#"></a></div>
+                <div class="block"><a href="#"></a></div>
             </div>
         </div>
     </div>
     <div class="main clearfix">
-        <div class="circle_main"></div>
-        <div class="text text_main">
+        <div class="container">
+        <div class="main__circle"></div>
+        <div class="text main__text">
             <h1>Текст</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
                 sed do eiusmod tempor incididunt ut labore et dolore<br>
@@ -36,28 +37,43 @@
                 voluptate velit esse cillum dolore eu
                 fugiat nulla pariatur. </p>
         </div>
-        <div class="square_main"></div>
-    </div>
-    <div class="line container">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
-    </div>
-    <div class="footer ">
-       <div class="square_foot"></div>
-        <div class="list_footer">
-            <ul>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-            </ul>
+        <div class="main__square"></div>
         </div>
-        <div class="text text_footer">
-            Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua.Ut enim ad minim veniam, quis
-            nostrud exercitation ullamco laboris nisi ut.
+    </div>
+    <div class="line">
+        <div class="container">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="footer__blocks">
+            <div class="foot__block">
+                <div class="foot__square"></div>
+            </div>
+            <div class="foot__block">
+                <ul class="footer__list">
+            <li class="list__item"><a href="#"></a></li>
+            <li class="list__item"><a href="#"></a></li>
+            <li class="list__item"><a href="#"></a></li>
+                </ul>
+            </div>
+            <div class="foot__block">
+                <ul class="footer__list">
+                <li class="list__item"><a href="#"></a></li>
+                <li class="list__item"><a href="#"></a></li>
+                <li class="list__item"><a href="#"></a></li>
+            </ul>
+            </div>
+            <div class="foot__block">
+                <div class="text footer__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.Ut enim ad minim veniam, quis
+                nostrud exercitation ullamco laboris nisi ut.
+            </div>
+            </div>
+            </div>
         </div>
     </div>
 </div>

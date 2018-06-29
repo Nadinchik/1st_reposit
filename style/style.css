@@ -15,8 +15,7 @@ a, a:hover {
 }
 
 ul, li{
-    list-style: none;
-}
+    list-style: none;}
 
 .clearfix:before,
 .clearfix:after {
@@ -27,8 +26,7 @@ ul, li{
 .clearfix:after {clear: both;}
 
 .container{
-    padding: 0 15px;
-}
+    padding: 0 15px;}
 
 html {
     height: 100%;
@@ -111,16 +109,17 @@ body{
 
 .main{
     display: flex;
-    justify-content: center;
-    padding: 57px 0 47px;}
+    padding: 57px 0 47px;
+    justify-content: center;}
 @media (max-width: 992px){
     .main {
         padding: 37px 0 30px;} }
+@media (max-width: 768px){
+    .main{
+        flex-wrap: wrap;}  }
 @media (max-width: 550px){
     .main{
-        width: 380px;
-        padding: 15px 0 15px;
-        flex-wrap: wrap;}  }
+        padding: 15px 0 15px;}  }
 
 .main__circle {
     width: 250px;
@@ -131,11 +130,8 @@ body{
 @media (max-width: 992px){
     .main__circle{
         width: 150px;
-        height: 150px;} }
-@media (max-width: 768px){
-    .main__circle{
-    width: 120px;
-    height: 120px}  }
+        height: 150px;
+        margin-bottom: 20px;} }
 
 .main__text{
     width: 30%;
@@ -143,6 +139,10 @@ body{
 @media (max-width: 992px){
     .main__text{
         margin: 0 20px;} }
+@media (max-width: 768px){
+    .main__text{
+        width: 100%;
+        margin-bottom: 20px;}  }
 
 .main__text p {
     margin-top: 45px;}
@@ -190,8 +190,7 @@ body{
 .main__square{
     width: 595px;
     height: 250px;
-    background: #9870ad;
-}
+    background: #9870ad;}
 @media (max-width: 992px){
     .main__square{
         width: 400px;
@@ -203,12 +202,12 @@ body{
 @media (max-width: 550px){
     .main__square{
         width: 250px;
-        height: 150px;
-        margin-top: 10px;}  }
+        height: 150px;}  }
 
 .line{
     display: table-cell;
     height: 205px;
+    padding: 0 10px;
     text-align: center;
     vertical-align: middle;
     background: #92c37c;}
@@ -234,8 +233,7 @@ body{
         font-size: 18px;}  }
 
 .footer{
-    padding: 90px 0;
-}
+    padding: 90px 0;}
 @media (max-width: 992px){
     .footer{
         padding: 70px 0;} }
@@ -249,13 +247,17 @@ body{
 .footer__blocks{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: flex-start;}
-@media (max-width: 550px){
-    .footer__blocks{
-        ;}  }
 
 .foot__block{
-    width: 25%;}
+    width: 25%;
+    margin-bottom:20px; }
+.foot__block:last-child{
+    margin-bottom: 0;}
+@media (max-width: 768px){
+    .foot__block{
+        width: 100%;}  }
 
 .foot__square{
     height: 80px;
@@ -266,7 +268,8 @@ body{
         margin-right: 70px;} }
 @media (max-width: 768px){
     .foot__square{
-        margin-right: 50px;}  }
+        max-width: 350px;
+        margin: 0 auto;}  }
 
 .footer__list li{
     height: 40px;
@@ -275,15 +278,20 @@ body{
     background: #6558a0;
     border: 5px solid #8ecdf6;
     border-radius: 10px;}
+.footer__list li:last-child{
+    margin-bottom: 0;}
 @media (max-width: 992px){
     .footer__list li{
-        margin-right: 70px;
         margin-bottom: 15px;}  }
 @media (max-width: 768px){
     .footer__list li{
-        margin-right: 50px;}  }
+        max-width: 500px;
+        margin: 0 auto 20px;}  }
 
-.footer__list li:last-child{
-    margin-bottom: 0;}
+@media (max-width: 768px){
+    .footer__text {
+    margin: 0 15px;}  }
+
+
 
 
